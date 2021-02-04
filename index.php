@@ -38,11 +38,11 @@
                             alert("Incorrect id or pass");
                         }
                         else if(res == 1){
-                            alert("Welcome Admin");
+                            //alert("Welcome Admin");
                             window.location.href = "admin/index.php";
                         }
                         else if(res == 2){
-                            alert("Welcome User");
+                            //alert("Welcome User");
                             window.location.href = "user/index.php";
                         }
                     }
