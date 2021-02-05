@@ -41,7 +41,7 @@ VALUES ('$frm','$question','$oA','$oB','$oC','$oD','$answer')";
     }
     public function showQuestion($frm)
     {
-        $sql = "SELECT * FROM `quest_ans` WHERE `category` = '$frm'";
+        $sql = "SELECT * FROM `quest_ans`  WHERE `category` = '$frm'";
         $data=$this->conn->query($sql);
         if ($data->num_rows>0) {
             $arr=array();

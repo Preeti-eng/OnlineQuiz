@@ -15,8 +15,8 @@ $cat =new category();
     opacity:0.9;
 }
     </style>
-    <body id="img">
-        <div style="height:600px;">
+    <body>
+        <div id="img" style="height:600px;">
             <?php include "header.php"; ?> 
             <div style="text-align:center;">
                 <h1 id="aa"  style="font-size:50px;color:#8a2be2;">Take Test....</h1>
@@ -128,6 +128,7 @@ if ($data!=false) {
             });
         });
         $('#next').click(function() {
+            //$('input[type="radio"]').prop('checked' , false);
             var frm1 = $('#frm').val();
             var question = $('#question');
             var option1 = $('#option1');
